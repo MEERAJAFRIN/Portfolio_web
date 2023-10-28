@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+address {
+    font-size: 14px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+/* Add this CSS for the top right photo */
+.top-right-photo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1; /* Ensure it's above other content */
+}
+.top-right-photo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    border: 2px solid #3498db; /* Optional border style */
+    border-radius: 50%; /* Makes it a circle, adjust as needed */
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.job {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.project {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#skills ul {
+    columns: 2;
+}
+
+#workshop ul {
+    columns: 2;
+}
